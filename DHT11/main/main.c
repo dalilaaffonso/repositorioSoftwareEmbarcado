@@ -8,7 +8,7 @@
 static const char *TAG = "DHT11_TEST";
 
 // Define o pino GPIO onde o DHT11 está conectado
-#define DHT11_PIN GPIO_NUM_13
+#define DHT11_PIN GPIO_NUM_17
 
 void dht11_read_task(void *pvParameter)
 {
